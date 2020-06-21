@@ -1,0 +1,17 @@
+{
+  "name": "orbitdb-demo",
+  "version": "1.0.0",
+  "description": "A demo to play around with orbitDB",
+  "main": "index.js",
+  "scripts": {
+    "start-peer-1": "node peer1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Nnakwue",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "ipfs": "^0.46.0",
+    "orbit-db": "^0.24.1"
+  }
+}
